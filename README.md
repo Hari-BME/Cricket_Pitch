@@ -2,6 +2,8 @@
 
 This Streamlit app visualizes a cricket pitch, displaying fielder positions, stumps, and a bat using Matplotlib.
 
+![Cricket Pitch Visualization](cricket_pitch_visualization.png)
+
 ### Features
 - **Fielder Positions:** Scatter plot of fielder positions on the cricket pitch, with labels indicating the position names.
 - **Stumps:** Visualization of the batting and bowling stumps with labels.
@@ -21,3 +23,5 @@ Contributions are welcome! Feel free to open an issue or submit a pull request w
 
 ### License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://cricketpitchharibme.streamlit.app/)
