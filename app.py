@@ -53,8 +53,8 @@ def draw_cricket_pitch():
     ax.add_patch(out_field)
 
     # Add the pitch ellipse (inner boundary representing the pitch)
-    inner_circle = patches.Ellipse((0.5, 0.5), 0.6, 0.5, edgecolor='white', fill=False, ls='-.', zorder=0)
-    ax.add_patch(inner_circle)
+     inner_circle = patches.Ellipse((0.5, 0.5), 0.6, 0.5,facecolor='green',edgecolor='white', fill=True, ls='-.', zorder=2)
+     ax.add_patch(inner_circle)
 
     # Add the rectangular patch for one end of the pitch
     pitch = patches.Rectangle((0.425, 0.35), 0.15, 0.3, facecolor='peru', alpha=1, zorder=0)
