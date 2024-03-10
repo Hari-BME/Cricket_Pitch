@@ -1,3 +1,15 @@
+import subprocess
+
+def install_requirements(requirements_file):
+    # Execute pip install command
+    subprocess.check_call(['pip', 'install', '-r', requirements_file])
+
+# Path to the requirements.txt file
+requirements_file = 'requirements.txt'
+
+# Install requirements
+install_requirements(requirements_file)
+
 import streamlit as st
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
